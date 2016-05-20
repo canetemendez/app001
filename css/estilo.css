@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+.titulo h1{
+	text-align:center;
+	margin-bottom:5px;
+	margin-top:5px;
+	font-size: 1.2em;
+	color:#FFF;
+}
+h2
+{
+	color:#fff;
+}
+.jugar {
+	text-align:center;
+}
+.salir {
+	text-align:center;
+	display:block;
+}
+.lados {
+	width:49%;
+	display:inline-block;
+}
+
+.lados a {
+	display:block;
+	margin:5px auto;
+}
+.icono-grande{
+	font-size:1.5 em;
+	border: 1px solid;
+	color: #000;
+	border-radius:50%;
+	padding: 2px 8px;
+	text-align: center;
+	display: inline-block;
+}
+.menu
+{
+	background-image: url(../recursos/imagenes/Man-Made-Road-Beautiful-Scene-HD-Wallpaper.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.config
+{
+	background-image: ;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.transparente
+{
+	background-image: linear-gradient(rgba(255,215,0,0.5),rgba(34, 139 ,34,0.6));
+	border-radius:20%;
+	opacity:.8;
+	
+}
+
+.opacidad a:hover,
+.opacidad a:active{
+	opacity:1;
+}
+
+/*splash*/
+.menusp
+{
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(50, 9, 0, 0.5)), url(../recursos/imagenes/Man-Made-Road-Beautiful-Scene-HD-Wallpaper.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.empezar
+{
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(50, 9, 0, 0.5));
+	color:#fff;
+	text-align:center;
+	font-style:italic; font-family:'Arial Black', Gadget, sans-serif;"
+}
+.tocar 
+{
+	text-decoration:none;
+}
+.empezar a:hover,
+.empezar a:active{
+	font-size:80%;
+}

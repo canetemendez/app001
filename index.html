@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+ 
+  <title>Aplicacion1</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" /> 
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
+        
+        
+
+
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js" type="text/javascript"></script>
+  <!-- <script src="phonegap.js" type="text/javascript"></script> -->
+ </head>
+
+ <body>
+ 
+ <!-- Principal -->
+ <div data-role="page" id="principal" class="menu">
+  <div data-role="main" class="ui-content">
+    <div class="titulo" style=" margin-left:-10%; margin-right:-5%;">
+    <h1 style="margin-top:-3%;" class="empezar" >Ahorcado</h1>
+    </div> <!--div titulo-->
+    <div class="botones">
+      <div class="jugar opacidad">
+       <a href="#" class="ui-btn ui-btn-inline transparente" style="color:rgba(0,0,0);">Jugar</a>
+      </div>
+      <div class="lados opacidad">
+      <a href="#" class="ui-btn ui-btn-inline transparente">Instrucciones</a>
+      <a href="#configuracion" class="ui-btn ui-btn-inline transparente">Configuracion</a>
+      
+      </div>
+      <div class="lados opacidad">
+      <a href="#" class="ui-btn ui-btn-inline transparente">Acerca de...</a>
+      <a href="#" class="ui-btn ui-btn-inline transparente">Records</a>
+      </div>
+      <div class="salir opacidad">
+      <a href="splash.html" class="ui-btn ui-btn-inline transparente">Salir</a>
+      </div>
+    
+    </div><!--div botones-->
+  </div><!--div main-->
+ </div>  <!--div page-->
+ <!-- Principal -->
+ <!-- Configuración-->
+ <div data-role="page" id="configuracion" class="config menusp">   
+  <div style="background-color: rgba(50, 9, 0, 0.9);" data-role="header" data-add-back-btn="true" data-back-btn-theme="b">
+   <h1 style="color:#fff;">Configuración</h1>
+  </div><!--div header-->
+  <div data-role="main" class="ui-content" align="center">
+  <div id="opciones">
+   <a  href="#" id="btn_sonido" class="ui-btn ui-btn-corner-all ui-icon-noaudio ui-btn-icon-notext"></a>
+   <i style="color:#fff;" class="ion-android-phone-portrait icono-grande"></i>
+  </div><!--div opciones-->
+   <div id="nivel" align="center">
+    <h2>Nivel</h2>
+    <input style="background-color: rgba(50, 9, 0, 0.9); color:#fff;" type="range" value="0" min="0" max="1">
+    <h2 id="dificultad">Fácil</h2>
+   </div><!--div nivel-->
+   <div id="colpalabras" align="center">
+    <h2>Coleccion de Palabras</h2>
+    <select  name="coleccion">
+    <option value="1"></option>
+    <option value="2"></option> 
+    <option value="3"></option>   
+   </select>
+   </div><!--div colpalabras-->
+   <div id="colpalabras" align="center">
+    <h2>No. de Palabras</h2>
+    <select name="palabras">
+    <option value="1"></option>
+    <option value="2"></option> 
+    <option value="3"></option>   
+   </select>
+   </div><!--div palabras-->
+ <div id="conexion" align="center">
+    <h2>Conexion a utilizar</h2>
+    <select  name="slider" id="slider" data-role="slider">
+     <option value="off">Off</option>
+     <option value="on">On</option>
+    </select>
+    <input type="text" value="url" name="url">
+    	<a style="background-color: rgba(50, 9, 0, 0.9); color:#fff;" href="#" class="ui-btn ui-btn-inline">Comprobar conexión</a>
+
+ </div><!--div conexion-->
+  </div><!--div main-->
+ </div><!--div page-->
+ <!-- Configuración-->
+  </body>
+</html> 
